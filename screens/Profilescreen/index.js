@@ -11,7 +11,10 @@ const Profile = () => {
         <View>
           <View style={styles.headerContainer}>
             <ProfileImage />
-            <Text style={styles.headerText}>Jay Mahanga</Text>
+            <Text style={{
+            left: 0,
+            top: 123
+          }}>Jay Mahanga</Text>
             <Text style={styles.headerSubText}>jay@gmail.com</Text>
           </View>
           <View style={styles.subheaderContainer}>
