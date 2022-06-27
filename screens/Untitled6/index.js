@@ -18,7 +18,25 @@ const Untitled6 = () => {
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Lorem ipsum… </Text></View>;
+    }}>Lorem ipsum… </Text><Text style={{
+      left: 42,
+      top: 84,
+      position: "absolute",
+      width: 100,
+      height: 50,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Lorem ipsum… </Text><View style={{
+      left: 11.690032958984375,
+      top: 147,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View></View>;
 };
 
 export default Untitled6;
